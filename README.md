@@ -1,2 +1,2 @@
 # LeetcodeProblems
-Solutions to various Leetcode Problems
+Repository contains solutions to various algorithm questions and few Leetcode Problems
