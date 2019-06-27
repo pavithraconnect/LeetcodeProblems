@@ -60,9 +60,11 @@ import java.util.*;
                 while(list.hasNext()){
                     int n=list.next();
                     if(!visited[n]){
+			stack.push(x);
                         visited[n]=true;
-                        stack.push(n+1);
                         System.out.println(n+1);
+			x=n+1;
+			list = adjacencyList[x-1].iterator();
                     }
                 }
             }
